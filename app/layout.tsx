@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer';
 import './globals.css';
+import Navbar from '@/components/Navbar';
 
 export const metadata = {
   title: 'Financial',
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Navbar />
         <main>
           {children}
         </main>
